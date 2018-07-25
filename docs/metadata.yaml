@@ -1,0 +1,14 @@
+site_title: "Next Time Space Analligence"
+
+navigation:
+    - title: Product Overview
+      location: overview.md
+
+    - title: Quick Start
+      children:
+        - title: Sign up!
+          location: quick/signup.md
+
+        - title: Hello world!
+          location: quick/hello.md
+

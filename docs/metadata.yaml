@@ -1,5 +1,5 @@
 site_title: "Next Time Space Analligence"
-
+site_footer_text: "© 2018 Next Time Space."
 navigation:
     - title: Product Overview
       location: overview.md

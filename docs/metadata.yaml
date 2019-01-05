@@ -1,15 +1,42 @@
-site_title: "Next Time Space Analligence"
+site_title: "Next Time Space Analligence Docs"
 site_footer_text: "© 2018 Next Time Space."
 site_favicon: "imgs/favicon.ico"
 navigation:
     - title: Product Overview
-      location: overview.md
-
-    - title: Quick Start
+      location: /docs/
+    - title: Getting Started
       children:
-        - title: Sign up!
-          location: quick/signup.md
+        - title: Analligence Sandbox
+          location: setup/analligence.md
+        - title: Analligence CDN
+          location: setup/analligencecdn.md
+        - title: Analligence Chrome Ghost
+          location: setup/analligencechrome.md
+          
+    - title: Analligence Editors
+      children:
+        - title: Workspace Editor
+          location: editors/workspace-editor.md
+        - title: Catalog Space
+          location: editors/catalog-editor.md
+        - title: Segment Editors
+          location: editors/segment-editor.md
+        - title: Engagement Editors
+          location: editors/engagement-editor.md
+        - title: Engagement Formatter
+          location: editors/engagement-formatter.md
+        - title: Build Space
+          location: editors/build-space.md
+        - title: Test Space
+          location: editors/test-space.md
+        - title: Deployment Space
+          location: editors/deploy-space.md
+        - title: Trends Space
+          location: editors/trends-space.md
+        - title: Organization Space
+          location: editors/organization-space.md
 
-        - title: Hello world!
-          location: quick/hello.md
+    - title: Help/Support/Contributions
+      location: support.md
+    
 
